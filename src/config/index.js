@@ -1,0 +1,1 @@
+export const baseUrl = 'https://iad-project-backend-production.up.railway.app/api/v1'

@@ -1,0 +1,119 @@
+.formMain {
+    margin: 20px 0;
+    background-color: #efefef;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ProjectsMain,
+.formMain {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.formMain h3 {
+    font-size: 22px;
+    margin: 10px 0;
+    color: #1E70A0;
+}
+
+.formMain p {
+    color: red;
+}
+
+.formMain label {
+    display: block;
+    margin: 30px 0 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.formMain input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #eee;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #1E70A0;
+    background-color: #1E70A0;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.formMain .btnMainDiv {
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.ProjectsMain {
+    margin: 20px auto;
+    background-color: #efefef;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.ProjectsMain h3 {
+    font-size: 22px;
+    margin: 10px 0;
+    color: #1E70A0;
+}
+
+.ProjectsMain ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.ProjectsMain li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(216, 225, 225);
+}
+
+.ProjectsMain li input,
+.ProjectsMain li p {
+    color: #000;
+    font-weight: 600;
+}
+
+.ProjectsMain input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid transparent;
+    margin: 10px 0;
+    background-color: transparent;
+}
+
+.ProjectsMain input.editingInp {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #eee;
+    background-color: #fff;
+    margin: 10px 0;
+}
+
+
+.ProjectsMain .btnMainDiv {
+    display: flex;
+    gap: 10px;
+}
